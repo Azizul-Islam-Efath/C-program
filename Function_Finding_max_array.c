@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 
-void print_array(int x[100],int n)
+void print_max(int x[100],int n)
 {
     int i;
     for(i=0; i<n; i++)
@@ -35,7 +35,7 @@ int main()
     printf("ENTER THE SIZE OF THE ARRAY: ");
     scanf("%d",&n);
 
-    print_array(arr[100],n);
+    print_max(arr[100],n);
 
 
 
